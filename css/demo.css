@@ -67,7 +67,9 @@ a{
 	text-decoration: none;
 }
 .container{
-	position: relative;	
+	display: flex;
+    justify-content: center; 
+    align-items: center; 
 }
 .clr{
 	clear: both;

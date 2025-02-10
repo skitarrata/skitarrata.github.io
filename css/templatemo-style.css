@@ -75,6 +75,25 @@ p {
     display: flex;
     align-items: center;
 } */
+/* .container-box {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh;
+} */
+
+/* .container-img {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    background-color: lightgray; 
+} */
+
+img {
+    width: 500px; /* Regola la larghezza */
+    height: auto; /* Mantiene le proporzioni */
+}
 
 .tm-content {
     z-index: 1001;
