@@ -12,17 +12,7 @@ body {
 	font-weight: 300;
 	overflow-x: hidden;
 }
-@media (max-width: 768px) {
-	body {
-	  font-size: 16px;
-	}
-	.sidebar {
-	  display: none;
-	}
-	.main-content {
-	  width: 100%;
-	}
-  }
+
 a, button {
 	transition: all 0.3s ease;
 	color: #FFFFFF;
@@ -286,7 +276,7 @@ img {
 	100% { opacity: 0 }
 }
 
-*/
+
 @media screen and (max-width: 1140px) { 
     .cb-slideshow li div h3 { font-size: 140px }
 }
@@ -295,6 +285,23 @@ img {
 	.tm-content {
 		margin-top: 80px;
 	}
+}
+
+@media screen and (max-width: 576px) { 
+    .cb-slideshow li div h3 { font-size: 80px }
+	
+	.tm-btn-subscribe {
+		margin-top: 20px;
+	}
+} */
+/* @media screen and (max-width: 1140px) { 
+    .cb-slideshow li div h3 { font-size: 140px }
+} */
+@media screen and (max-width: 768px) { 
+    body a div h2 img { font-size: 80px }
+	/* .tm-content {
+		margin-top: 80px;
+	} */
 }
 
 @media screen and (max-width: 576px) { 
