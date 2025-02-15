@@ -12,7 +12,17 @@ body {
 	font-weight: 300;
 	overflow-x: hidden;
 }
-
+@media (max-width: 768px) {
+	body {
+	  font-size: 16px;
+	}
+	.sidebar {
+	  display: none;
+	}
+	.main-content {
+	  width: 100%;
+	}
+  }
 a, button {
 	transition: all 0.3s ease;
 	color: #FFFFFF;

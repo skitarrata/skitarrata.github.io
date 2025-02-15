@@ -52,9 +52,11 @@ abbr,acronym { border:0;
 /* General Demo Style */
 body{
 	font-family: Constantia, Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
-	margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+	background: #000;
+	font-weight: 400;
+	font-size: 15px;
+	color: #aa3e03;
+	overflow-x: hidden;
 }
 .ie7 body{
 	overflow:hidden;
@@ -73,22 +75,7 @@ a{
     justify-content: center; 
     align-items: center; 
 }
-@media (max-width: 768px) {
-	.container {
-	  width: 95%;
-	  padding: 0.5rem;
-	}
-	body {
-	  font-size: 16px;
-	}
-  }
 
-  @media (max-width: 480px) {
-	.container {
-	  width: 100%;
-	  padding: 0.5rem;
-	}
-  }
 .clr{
 	clear: both;
 }
