@@ -294,20 +294,3 @@ img {
 		margin-top: 20px;
 	}
 } */
-/* @media screen and (max-width: 1140px) { 
-    .cb-slideshow li div h3 { font-size: 140px }
-} */
-@media screen and (max-width: 768px) { 
-    body a div h2 img { font-size: 80px }
-	/* .tm-content {
-		margin-top: 80px;
-	} */
-}
-
-@media screen and (max-width: 576px) { 
-    .cb-slideshow li div h3 { font-size: 80px }
-	
-	.tm-btn-subscribe {
-		margin-top: 20px;
-	}
-}
