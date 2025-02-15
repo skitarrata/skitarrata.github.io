@@ -11,7 +11,6 @@ body {
 	font-size: 24px;
 	font-weight: 300;
 	overflow-x: hidden;
-	
 }
 
 a, button {
@@ -94,6 +93,13 @@ img {
     width: 500px; /* Regola la larghezza */
     height: auto; /* Mantiene le proporzioni */
 }
+
+.clip {
+    width: 500px;
+    height: 500px;
+    clip-path: circle(70% at 50% 50%);
+    object-fit: cover;
+  }
 
 .tm-content {
     z-index: 1001;

@@ -67,9 +67,23 @@ a{
 }
 .container{
 	display: flex;
+	flex-wrap: wrap;
+	overflow: hidden;
     justify-content: center; 
     align-items: center; 
 }
+@media (max-width: 768px) {
+	body {
+	  font-size: 16px;
+	}
+	.sidebar {
+	  display: none;
+	}
+	.main-content {
+	  width: 100%;
+	}
+  }
+  
 .clr{
 	clear: both;
 }
