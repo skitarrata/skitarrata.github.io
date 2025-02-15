@@ -286,7 +286,7 @@ img {
 	100% { opacity: 0 }
 }
 
-
+*/
 @media screen and (max-width: 1140px) { 
     .cb-slideshow li div h3 { font-size: 140px }
 }
@@ -303,4 +303,4 @@ img {
 	.tm-btn-subscribe {
 		margin-top: 20px;
 	}
-} */
+}
